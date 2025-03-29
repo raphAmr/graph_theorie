@@ -1,0 +1,163 @@
+Veuillez entrer le numéro du tableau ou 0 pour mettre fin au programme : 
+2
+
+----------------------------------------Matrice de valeurs associés au tableau de contraintes n° 2---------------------------------------- 
+
+	1	2	3	4	5	6	7	8	9	10	11	12	13
+1	*	*	2	*	*	2	*	*	*	*	*	*	*	
+2	*	*	*	*	*	5	*	*	*	*	*	*	*	
+3	*	*	*	4	*	*	*	*	*	*	*	*	*	
+4	*	*	*	*	1	*	*	*	*	*	*	*	*	
+5	*	*	*	*	*	*	*	*	*	*	*	*	*	
+6	*	*	*	*	2	*	2	*	*	*	2	*	2	
+7	*	*	*	*	*	*	*	5	*	*	*	5	*	
+8	*	*	*	*	5	*	*	*	5	*	*	5	*	
+9	*	*	*	*	*	*	*	*	*	9	*	9	*	
+10	*	*	*	*	*	*	*	*	*	*	*	2	*	
+11	*	*	*	*	*	*	*	*	*	*	*	*	19	
+12	*	*	*	*	*	*	*	*	*	*	*	*	*	
+13	*	*	*	*	*	*	*	*	*	*	*	*	*	
+
+----------------------------------------Matrice de valeurs associés au tableau de contraintes----------------------------------------
+
+
+
+
+----------------------------------------Détéction d'arcs négatifs----------------------------------------
+
+Abscence d'arcs négatifs
+
+
+----------------------------------------Fin détéction d'arcs négatifs----------------------------------------
+
+
+--------------------Détéction de circuit avec la méthode de suppression des points d'entrées--------------------
+
+Point d'entrées : 1 2 
+Suppression des points d'entées
+Sommets restants : 3 4 5 6 7 8 9 10 11 12 13 
+
+Point d'entrées : 3 6 
+Suppression des points d'entées
+Sommets restants : 4 5 7 8 9 10 11 12 13 
+
+Point d'entrées : 4 7 11 
+Suppression des points d'entées
+Sommets restants : 5 8 9 10 12 13 
+
+Point d'entrées : 8 13 
+Suppression des points d'entées
+Sommets restants : 5 9 10 12 
+
+Point d'entrées : 5 9 
+Suppression des points d'entées
+Sommets restants : 10 12 
+
+Point d'entrées : 10 
+Suppression des points d'entées
+Sommets restants : 12 
+
+Point d'entrées : 12 
+Suppression des points d'entées
+Sommets restants : 
+
+Abscence de circuit
+ 
+
+----------------------------------------Fin détection de circuit----------------------------------------
+
+
+
+Le graph est un graph d'ordanancement nous pouvons donc poursuivre
+
+--------------------Calcul de rang avec la méthode de suppression des points d'entrées--------------------
+
+Rang : 1
+Point d'entrées : 1 2 
+Suppression des points d'entées
+Sommets restants : 3 4 5 6 7 8 9 10 11 12 13 
+
+Rang : 2
+Point d'entrées : 3 6 
+Suppression des points d'entées
+Sommets restants : 4 5 7 8 9 10 11 12 13 
+
+Rang : 3
+Point d'entrées : 4 7 11 
+Suppression des points d'entées
+Sommets restants : 5 8 9 10 12 13 
+
+Rang : 4
+Point d'entrées : 8 13 
+Suppression des points d'entées
+Sommets restants : 5 9 10 12 
+
+Rang : 5
+Point d'entrées : 5 9 
+Suppression des points d'entées
+Sommets restants : 10 12 
+
+Rang : 6
+Point d'entrées : 10 
+Suppression des points d'entées
+Sommets restants : 12 
+
+Rang : 7
+Point d'entrées : 12 
+Suppression des points d'entées
+Sommets restants : 
+
+
+--------------------Fin de calcul de rang--------------------
+
+
+
+----------------------------------------Les rangs----------------------------------------
+
+Sommet : 1 Rang : 1
+Sommet : 2 Rang : 1
+Sommet : 3 Rang : 2
+Sommet : 4 Rang : 3
+Sommet : 5 Rang : 5
+Sommet : 6 Rang : 2
+Sommet : 7 Rang : 3
+Sommet : 8 Rang : 4
+Sommet : 9 Rang : 5
+Sommet : 10 Rang : 6
+Sommet : 11 Rang : 3
+Sommet : 12 Rang : 7
+Sommet : 13 Rang : 4
+
+
+----------------------------------------Les rangs----------------------------------------
+
+
+----------------------------------------Calendrier----------------------------------------
+
+			Début		1		2		3		4		5		6		7		8		9		10		11		12		13		Fin
+Durée					2		5		4		1		9		2		5		5		9		2		19		5		1		
+Date tot		0		0		0		2		6		17		5		7		12		17		26		7		28		26		33
+Date tard		0		3		0		19		23		24		5		7		12		17		26		13		28		32		33
+Marge Totale	0		3		0		17		17		7		0		0		0		0		0		6		0		6		0
+
+----------------------------------------Calendrier----------------------------------------
+
+
+----------------------------------------Chemins critiques----------------------------------------
+
+Liste des tâches critiques : 2 6 7 8 9 10 12  
+
+Les chemins critiques :
+Début->2->6->7->12->Fin 
+Début->2->6->7->8->12->Fin 
+Début->2->6->7->8->9->12->Fin 
+Début->2->6->7->8->9->10->12->Fin 
+
+----------------------------------------Fin chemins critiques----------------------------------------
+
+
+Veuillez entrer le numéro du tableau ou 0 pour mettre fin au programme : 
+0
+Fin du programme
+
+Process finished with exit code 0

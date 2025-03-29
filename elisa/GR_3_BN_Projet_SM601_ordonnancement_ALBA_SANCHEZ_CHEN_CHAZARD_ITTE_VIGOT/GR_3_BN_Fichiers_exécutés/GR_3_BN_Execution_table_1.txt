@@ -1,0 +1,66 @@
+Veuillez entrer le numéro du tableau ou 0 pour mettre fin au programme : 
+1
+
+----------------------------------------Matrice de valeurs associés au tableau de contraintes n° 1---------------------------------------- 
+
+	1	2	3	4	5	6	7	8	9	10	11	12	13
+1	*	*	2	*	*	*	*	*	*	*	*	*	*	
+2	*	*	*	5	*	*	*	*	*	*	*	*	*	
+3	*	*	*	4	*	*	*	*	*	*	*	4	*	
+4	*	*	*	*	2	*	*	*	*	*	2	*	*	
+5	*	*	*	*	*	5	*	*	*	*	*	*	*	
+6	*	*	*	*	*	*	5	*	*	*	*	*	5	
+7	*	*	*	*	*	*	*	9	*	*	*	*	*	
+8	*	*	*	*	*	*	*	*	2	*	*	*	*	
+9	*	*	*	*	*	*	*	*	*	*	*	*	*	
+10	*	*	*	*	*	*	*	*	*	*	*	*	*	
+11	*	*	*	*	*	*	*	*	*	1	*	*	*	
+12	*	*	*	*	*	*	*	*	*	*	*	*	1	
+13	*	*	*	9	*	*	*	*	*	*	*	*	*	
+
+----------------------------------------Matrice de valeurs associés au tableau de contraintes----------------------------------------
+
+
+
+
+----------------------------------------Détéction d'arcs négatifs----------------------------------------
+
+Abscence d'arcs négatifs
+
+
+----------------------------------------Fin détéction d'arcs négatifs----------------------------------------
+
+
+--------------------Détéction de circuit avec la méthode de suppression des points d'entrées--------------------
+
+Point d'entrées : 1 2 
+Suppression des points d'entées
+Sommets restants : 3 4 5 6 7 8 9 10 11 12 13 
+
+Point d'entrées : 3 
+Suppression des points d'entées
+Sommets restants : 4 5 6 7 8 9 10 11 12 13 
+
+Point d'entrées : 12 
+Suppression des points d'entées
+Sommets restants : 4 5 6 7 8 9 10 11 13 
+
+Point d'entrées : 
+Suppression des points d'entées
+Sommets restants : 4 5 6 7 8 9 10 11 13 
+
+Présence de circuit
+ 
+
+----------------------------------------Fin détection de circuit----------------------------------------
+
+
+
+Le graph n'est pas un graph d'ordanancement nous ne pouvons pas poursuivre les opérations
+
+
+Veuillez entrer le numéro du tableau ou 0 pour mettre fin au programme : 
+0
+Fin du programme
+
+Process finished with exit code 0

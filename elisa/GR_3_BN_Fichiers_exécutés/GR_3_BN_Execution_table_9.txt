@@ -1,0 +1,139 @@
+Veuillez entrer le numéro du tableau ou 0 pour mettre fin au programme : 
+9
+
+----------------------------------------Matrice de valeurs associés au tableau de contraintes n° 9---------------------------------------- 
+
+	1	2	3	4	5	6	7	8	9	10
+1	*	*	*	*	*	*	*	*	1	*	
+2	*	*	*	*	*	*	*	*	2	*	
+3	*	*	*	*	*	*	*	*	3	*	
+4	4	*	*	*	4	*	*	*	*	*	
+5	5	*	*	*	*	*	*	5	*	*	
+6	*	*	6	*	*	*	*	*	*	*	
+7	*	7	*	*	*	*	*	7	*	*	
+8	8	*	*	*	*	*	*	*	8	*	
+9	*	*	*	*	*	*	*	*	*	*	
+10	10	*	10	*	*	*	*	*	*	*	
+
+----------------------------------------Matrice de valeurs associés au tableau de contraintes----------------------------------------
+
+
+
+
+----------------------------------------Détéction d'arcs négatifs----------------------------------------
+
+Abscence d'arcs négatifs
+
+
+----------------------------------------Fin détéction d'arcs négatifs----------------------------------------
+
+
+--------------------Détéction de circuit avec la méthode de suppression des points d'entrées--------------------
+
+Point d'entrées : 4 6 7 10 
+Suppression des points d'entées
+Sommets restants : 1 2 3 5 8 9 
+
+Point d'entrées : 2 3 5 
+Suppression des points d'entées
+Sommets restants : 1 8 9 
+
+Point d'entrées : 8 
+Suppression des points d'entées
+Sommets restants : 1 9 
+
+Point d'entrées : 1 
+Suppression des points d'entées
+Sommets restants : 9 
+
+Point d'entrées : 9 
+Suppression des points d'entées
+Sommets restants : 
+
+Abscence de circuit
+ 
+
+----------------------------------------Fin détection de circuit----------------------------------------
+
+
+
+Le graph est un graph d'ordanancement nous pouvons donc poursuivre
+
+--------------------Calcul de rang avec la méthode de suppression des points d'entrées--------------------
+
+Rang : 1
+Point d'entrées : 4 6 7 10 
+Suppression des points d'entées
+Sommets restants : 1 2 3 5 8 9 
+
+Rang : 2
+Point d'entrées : 2 3 5 
+Suppression des points d'entées
+Sommets restants : 1 8 9 
+
+Rang : 3
+Point d'entrées : 8 
+Suppression des points d'entées
+Sommets restants : 1 9 
+
+Rang : 4
+Point d'entrées : 1 
+Suppression des points d'entées
+Sommets restants : 9 
+
+Rang : 5
+Point d'entrées : 9 
+Suppression des points d'entées
+Sommets restants : 
+
+
+--------------------Fin de calcul de rang--------------------
+
+
+
+----------------------------------------Les rangs----------------------------------------
+
+Sommet : 1 Rang : 4
+Sommet : 2 Rang : 2
+Sommet : 3 Rang : 2
+Sommet : 4 Rang : 1
+Sommet : 5 Rang : 2
+Sommet : 6 Rang : 1
+Sommet : 7 Rang : 1
+Sommet : 8 Rang : 3
+Sommet : 9 Rang : 5
+Sommet : 10 Rang : 1
+
+
+----------------------------------------Les rangs----------------------------------------
+
+
+----------------------------------------Calendrier----------------------------------------
+
+			Début		1		2		3		4		5		6		7		8		9		10		Fin
+Durée					1		2		3		4		5		6		7		8		9		10		
+Date tot		0		17		7		10		0		4		0		0		9		18		0		27
+Date tard		0		17		16		15		0		4		9		2		9		18		5		27
+Marge Totale	0		0		9		5		0		0		9		2		0		0		5		0
+
+----------------------------------------Calendrier----------------------------------------
+
+
+----------------------------------------Chemins critiques----------------------------------------
+
+Liste des tâches critiques : 1 4 5 8 9  
+
+Les chemins critiques :
+Début->4->1->9->Fin 
+Début->4->5->1->9->Fin 
+Début->4->5->8->9->Fin 
+Début->4->5->8->1->9->Fin 
+
+----------------------------------------Fin chemins critiques----------------------------------------
+
+
+Veuillez entrer le numéro du tableau ou 0 pour mettre fin au programme : 
+0
+Fin du programme
+
+Process finished with exit code 0

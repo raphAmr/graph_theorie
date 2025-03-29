@@ -1,0 +1,73 @@
+Veuillez entrer le numéro du tableau ou 0 pour mettre fin au programme : 
+12
+
+----------------------------------------Matrice de valeurs associés au tableau de contraintes n° 12---------------------------------------- 
+
+	1	2	3	4	5	6	7	8	9	10	11	12
+1	*	*	10	10	*	*	*	*	*	*	*	10	
+2	*	*	10	10	*	*	*	*	*	*	*	*	
+3	*	*	*	*	*	*	*	*	9	*	*	*	
+4	*	*	*	*	5	*	5	*	5	*	*	*	
+5	*	*	*	*	*	4	*	4	*	*	*	*	
+6	*	*	*	*	*	*	*	*	*	*	2	2	
+7	*	*	*	*	*	*	*	2	*	*	*	*	
+8	*	*	*	*	*	*	*	*	*	*	4	*	
+9	*	*	*	*	*	*	*	8	*	8	*	*	
+10	*	*	12	*	*	*	*	*	*	*	12	*	
+11	*	*	*	*	*	*	*	*	*	*	*	*	
+12	*	*	*	*	*	*	*	*	*	*	*	*	
+
+----------------------------------------Matrice de valeurs associés au tableau de contraintes----------------------------------------
+
+
+
+
+----------------------------------------Détéction d'arcs négatifs----------------------------------------
+
+Abscence d'arcs négatifs
+
+
+----------------------------------------Fin détéction d'arcs négatifs----------------------------------------
+
+
+--------------------Détéction de circuit avec la méthode de suppression des points d'entrées--------------------
+
+Point d'entrées : 1 2 
+Suppression des points d'entées
+Sommets restants : 3 4 5 6 7 8 9 10 11 12 
+
+Point d'entrées : 4 
+Suppression des points d'entées
+Sommets restants : 3 5 6 7 8 9 10 11 12 
+
+Point d'entrées : 5 7 
+Suppression des points d'entées
+Sommets restants : 3 6 8 9 10 11 12 
+
+Point d'entrées : 6 
+Suppression des points d'entées
+Sommets restants : 3 8 9 10 11 12 
+
+Point d'entrées : 12 
+Suppression des points d'entées
+Sommets restants : 3 8 9 10 11 
+
+Point d'entrées : 
+Suppression des points d'entées
+Sommets restants : 3 8 9 10 11 
+
+Présence de circuit
+ 
+
+----------------------------------------Fin détection de circuit----------------------------------------
+
+
+
+Le graph n'est pas un graph d'ordanancement nous ne pouvons pas poursuivre les opérations
+
+
+Veuillez entrer le numéro du tableau ou 0 pour mettre fin au programme : 
+0
+Fin du programme
+
+Process finished with exit code 0
