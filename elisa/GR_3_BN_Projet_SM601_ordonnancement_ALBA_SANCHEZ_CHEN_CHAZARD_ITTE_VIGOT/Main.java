@@ -69,7 +69,7 @@ public class Main {
 
     //Fonction qui prend un numero de tableau et qui enregistre dans une classe les données du tableau choisi
     public static Graphe choose_graphe(int num) throws IOException {
-        BufferedReader read = lecture("src/data/table " + num + ".txt");
+        BufferedReader read = lecture("GR_3_BN_Fichiers_exécutés/GR_3_BN_Execution_table_" + num + ".txt");
         Graphe gr = new Graphe(num);
         try {
             String line = read.readLine();
